@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-with-source-maps-and-workspace",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "pnpm --recursive build && pnpm build:root",
+    "build:root": "node script/esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "esbuild": "^0.14.47",
+    "typescript": "^4.7.4"
+  }
+}
