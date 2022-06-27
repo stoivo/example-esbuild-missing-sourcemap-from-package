@@ -7,7 +7,7 @@ esbuild
     outdir: 'dist',
     bundle: true,
     sourcemap: true,
-    logLevel: 'debug',
+    logLevel: 'verbose',
     tsconfig: 'tsconfig.json',
     format: 'esm',
   });
