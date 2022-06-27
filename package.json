@@ -11,9 +11,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "devDependencies": {
     "esbuild": "^0.14.47",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "fbutil": "workspace:^0.1.0"
   }
 }
