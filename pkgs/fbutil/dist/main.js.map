@@ -4,5 +4,6 @@
   "sourceRoot": "",
   "sources": ["../src/main.ts"],
   "names": [],
-  "mappings": "AAAA,MAAM,CAAC,OAAO,UAAU,KAAK;IAC3B,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC;AACxB,CAAC"
+  "mappings": "AAAA,MAAM,CAAC,OAAO,UAAU,KAAK;IAC3B,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC;AACxB,CAAC",
+  "sourcesContent": ["export default function hello() {\n  console.log(`Asdasd`);\n}\n"]
 }
