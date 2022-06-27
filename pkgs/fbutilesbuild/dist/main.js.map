@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/main.ts"],
+  "sourcesContent": ["export default function hello() {\n  console.log(`Asdasd`);\n}\n"],
+  "mappings": ";;;AAAe,iBAAiB;AAC9B,UAAQ,IAAI,QAAQ;AACtB;",
+  "names": []
+}

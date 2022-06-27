@@ -6,9 +6,11 @@ importers:
     specifiers:
       esbuild: ^0.14.47
       fbutil: workspace:^0.1.0
+      fbutilesbuild: workspace:^0.1.0
       typescript: ^4.7.4
     dependencies:
       fbutil: link:pkgs/fbutil
+      fbutilesbuild: link:pkgs/fbutilesbuild
     devDependencies:
       esbuild: 0.14.47
       typescript: 4.7.4

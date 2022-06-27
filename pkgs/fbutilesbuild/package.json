@@ -1,0 +1,22 @@
+{
+  "name": "fbutilesbuild",
+  "version": "0.1.0",
+  "description": "Just a package to share code to all workspaces",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "build": "pnpm build:es && pnpm build:type",
+    "build:es": "node script/esbuild.js",
+    "build:type": "tsc -p tsconfig.json --emitDeclarationOnly",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.6.2"
+  }
+}
